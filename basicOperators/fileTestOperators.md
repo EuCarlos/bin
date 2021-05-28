@@ -1,0 +1,1 @@
+Continuar anotações: 39:47 do video

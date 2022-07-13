@@ -8,3 +8,4 @@ Comandos úteis em script de shell
 6. [Funções do Shell](./shellFunctions/)
 7. [Automação para Github](./automacao_gh/)
 8. [Utilitarios](./__utils/)
+9. [Docker](./docker/)

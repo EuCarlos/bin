@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  jupyter:
+    build: .
+    volumes:
+      - ./user-settings:/home/jovyan/.jupyter/lab/user-settings
+      - .:/home/jovyan/work
+    ports:
+      - 8888:8888
+    command: "start.sh jupyter lab --LabApp.token= --NotebookApp.notebook_dir=work"
